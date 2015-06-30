@@ -1,0 +1,40 @@
+POST /batch HTTP/1.1
+Host: www.googleapis.com
+Content-length: 729
+Content-type: multipart/mixed; boundary=batch_0123456789
+Authorization: Bearer ya29.oQGNi-tPYguveja12HPDJSkUDQF_195h8sBzBQm3cY5dvQKc7YAeBVZO02fTR5nk4VTDC6epHQPGdA
+--batch_0123456789
+Content-Type: application/http
+Content-ID: <UA-12346-1:cd1>
+Content-Transfer-Encoding: binary
+
+
+POST https://www.googleapis.com/analytics/v3/management/accounts/123456/webproperties/UA-123456-1/customDimensions
+Content-Type: application/json
+Content-Length: 68
+
+
+{
+ "name": "Campaign Group",
+ "scope": "SESSION",
+ "active": true
+}
+
+--batch_0123456789
+Content-Type: application/http
+Content-ID: <UA-12346-1:cd2>
+Content-Transfer-Encoding: binary
+
+
+POST https://www.googleapis.com/analytics/v3/management/accounts/123456/webproperties/UA-123456-1/customDimensions
+Content-Type: application/json
+Content-Length: 67
+
+
+{
+ "name": "Campaign Type",
+ "scope": "SESSION",
+ "active": true
+}
+
+--batch_0123456789--
