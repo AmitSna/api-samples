@@ -5,7 +5,7 @@ Content-type: multipart/mixed; boundary=batch_0123456789
 Authorization: Bearer ya29.uQGNa-eSPgsvFjaz6HPAJSkUXQF
 --batch_0123456789
 Content-Type: application/http
-Content-ID: <UA-12346-1:cd1>
+Content-ID: <UA-XXXXXX-1:cd1>
 Content-Transfer-Encoding: binary
 
 
@@ -22,7 +22,7 @@ Content-Length: 68
 
 --batch_0123456789
 Content-Type: application/http
-Content-ID: <UA-12346-1:cd2>
+Content-ID: <UA-XXXXXX-1:cd2>
 Content-Transfer-Encoding: binary
 
 
